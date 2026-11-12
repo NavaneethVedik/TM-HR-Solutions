@@ -1,0 +1,1 @@
+document.getElementById('year').textContent=new Date().getFullYear();document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>document.getElementById('navigation').classList.remove('open')));
